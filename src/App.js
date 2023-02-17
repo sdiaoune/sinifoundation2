@@ -22,9 +22,9 @@ function App() {
     <div id="wrapper">
     {/* <!--=================================
     loading --> */}
-    <div className="preloader">
+    {/* <div className="preloader">
         <div className="icon"></div>
-    </div>
+    </div> */}
 {/* 
     <!--=================================
     loading -->
@@ -242,11 +242,16 @@ function App() {
             <div className="main-about">
                 <div className="content-left-about">
                     <div className="progress-about">
-                        <div className="couter">
+                        {/* <div className="couter">
                             <div className="chart" id="chart" data-percent="60">
                                 <span className="percent"></span>
                             </div>
-                        </div>
+                        </div> */}
+                        <br/>
+                        <br/>
+                        <br/>
+                        <br/>
+                        <h4 style={{color: 'white'}}>60%</h4>
                         <h5>Donation</h5>
                     </div>
                     <div className="group-img">
